@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-       
+        <title>fakeNews</title> 
         <Message>
           <Message.Header><h1>Vote what you believed</h1></Message.Header>
 
