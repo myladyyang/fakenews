@@ -11,7 +11,7 @@ other people this of the thing.
 
 ### screen shot
 
-![fakenews](https://github.com/myladyyang/fakenews/tree/master/public/fakenews.png)
+![fakenews](public/fakenews.png)
 
 
 ## how to run
