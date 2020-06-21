@@ -6,7 +6,7 @@ import { Header } from 'semantic-ui-react'
 import Rumur from './components/Rumor'
 import Post from './components/Post'
 import { Message } from 'semantic-ui-react'
-import { Grid } from 'semantic-ui-react'
+import { Grid ,Button} from 'semantic-ui-react'
 function App() {
   let rumorlist = new Array(10)
   rumordata.forEach(r => {
@@ -23,9 +23,10 @@ function App() {
 
         </Message>
 
-        <Header as='h1'>Running Rumur Top 10</Header>
+        <Header as='h1'>Running Rumur Top 3</Header>
         
         {rumorlist}
+        <Button>more</Button>
       </header>
       <br />
       <br />
@@ -50,7 +51,7 @@ function App() {
 
 
 const rumordata = [{
-  title: "Moon will raised from the west tonight!",
+  title: "Japan Olympic is not postpone due to COVID2019.",
   trustedRate: 70,
   voteYes: 200,
   voteNo: 150,
@@ -59,8 +60,8 @@ const rumordata = [{
 
 },
 {
-  title: "Moon will raised from the west tonight2!",
-  trustedRate: 70,
+  title: "Never take a flight due to COVID2019",
+  trustedRate: 45,
   voteYes: 200,
   voteNo: 150,
   tags: "public",
@@ -68,7 +69,7 @@ const rumordata = [{
 
 },
 {
-  title: "Moon will raised from the west tonight2!",
+  title: "Mask shortage in Chengdu, preapre as least 100 pieces for the coming two months",
   trustedRate: 40,
   voteYes: 200,
   voteNo: 150,
